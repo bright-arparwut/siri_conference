@@ -1,0 +1,25 @@
+---
+// components/ui/ImportantDates.astro
+export interface ImportantDate {
+  date: string;
+  event: string;
+}
+
+interface Props {
+  dates: ImportantDate[];
+}
+
+const { dates } = Astro.props;
+---
+
+<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+  <h2 class="text-2xl font-bold mb-4">Important Dates</h2>
+  <ul class="space-y-2">
+    {dates.map(({ date, event }) => (
+      <li class="flex justify-between">
+        <span class="font-semibold">{event}</span>
+        <span class="text-gray-600 dark:text-gray-400">{date}</span>
+      </li>
+    ))}
+  </ul>
+</div>
