@@ -26,6 +26,8 @@ export const headerData = {
     },
     {
       text: 'Schedule',
+      href: getPermalink('/schedule'),
+      
     },
     {
       text: 'Paper'
