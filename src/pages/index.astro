@@ -7,7 +7,6 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -286,34 +285,71 @@ const metadata = {
     <!-- Steps Widget ****************** -->
 
   <Steps
-      title="Get your dream website up and running in no time with AstroWind."
-      items={[
-        {
-          title: 'Step 1: <span class="font-medium">Download</span>',
-          description:
-            "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-          icon: 'tabler:package',
-        },
-        {
-          title: 'Step 2: <span class="font-medium">Add content</span>',
-          description:
-            "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-          icon: 'tabler:letter-case',
-        },
-        {
-          title: 'Step 3: <span class="font-medium">Customize styles</span>',
-          description:
-            'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-          icon: 'tabler:paint',
-        },
-        {
-          title: 'Ready!',
-          icon: 'tabler:check',
-        },
-      ]}
-      image={{
-        src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-        alt: 'Steps image',
-      }}
-    />
+    title="Streamlined Process for ICSSIM 2025 Participation"
+    items={[
+      {
+        title: 'Step 1: <span class="font-medium">REGISTRATION</span>',
+        description:
+          "Complete the online registration form to secure your participation in ICSSIM 2025.",
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 2: <span class="font-medium">ABSTRACT SUBMISSION</span>',
+        description:
+          "Submit your research abstract for review by the ICSSIM 2025 Scientific Committee.",
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 3: <span class="font-medium">ABSTRACT REVIEW</span>',
+        description:
+          'Your abstract will undergo a thorough peer review process by our expert panel.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 4: <span class="font-medium">ABSTRACT DECISION NOTIFICATION</span>',
+        description:
+          'Receive notification of the review outcome via email from the ICSSIM 2025 Secretariat.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 5: <span class="font-medium">FULL PAPER SUBMISSION</span>',
+        description:
+          "Upon acceptance, submit your complete research paper following the provided guidelines.",
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 6: <span class="font-medium">FULL PAPER REVIEW</span>',
+        description:
+          "Your full paper will undergo a comprehensive peer review process.",
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 7: <span class="font-medium">FULL PAPER DECISION NOTIFICATION</span>',
+        description:
+          'Receive the final decision on your paper submission via email from the ICSSIM 2025 Secretariat.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 8: <span class="font-medium">REGISTRATION FEE PAYMENT</span>',
+        description:
+          'Process the conference registration fee to confirm your participation.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Step 9: <span class="font-medium">PAYMENT VERIFICATION</span>',
+        description:
+          'Our finance team will verify your payment and send a confirmation.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'FINAL PAPER UPLOAD',
+        description: 'Upload your final, camera-ready paper to the ICSSIM 2025 submission portal.',
+        icon: 'tabler:messages',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'ICSSIM 2025 Participation Process',
+    }}
+  />
 </Layout>
