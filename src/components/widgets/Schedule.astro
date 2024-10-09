@@ -4,11 +4,8 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import Timeline from '~/components/ui/Timeline.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
-
-// New component for important dates
 import ImportantDates from '~/components/ui/ImportantDates.astro';
 
-// Define the schedule data
 const importantDates = [
   { date: 'November 2024', event: 'Submission Abstract' },
   { date: 'December 2024 - January 2025', event: 'Submission Full paper' },
@@ -32,7 +29,6 @@ const scheduleDay2 = [
   { time: '11:00', event: 'First Keynote' },
   { time: '14:00', event: 'Invited Speaker' },
 ];
-
 ---
 
 <WidgetWrapper>
